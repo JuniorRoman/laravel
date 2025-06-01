@@ -1,9 +1,11 @@
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
+// import Swiper and modules styles
+import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("livewire:navigated", () => {
     new Swiper(".swiper_promo", {
         loop: true,
         speed: 5000,
@@ -15,8 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
         slidesPerView: 1,
     });
 });
-document.addEventListener("DOMContentLoaded", () => {
-    new Swiper('.swiper_gallery', {
+
+document.addEventListener("livewire:navigated", () => {
+    new Swiper(".swiper_gallery", {
         loop: true,
         speed: 3000,
         autoplay: {
@@ -37,10 +40,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 centeredSlides: true,
             },
         },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
     });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("livewire:navigated", () => {
     new Swiper(".swiper_minute", {
         loop: true,
         speed: 2000,
@@ -71,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("livewire:navigated", () => {
     new Swiper(".swiper_master", {
         loop: true,
         speed: 3000,

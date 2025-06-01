@@ -10,7 +10,7 @@
       <div class="swiper swiper_master border rounded-xl bg-white">
         <div class="swiper-wrapper py-2 h-[250px]">
           @foreach ($masters as $master)
-          <div class="p-4  swiper-slide h-[250px] text-center rounded-xl shadow-2xl bg-white">
+          <div wire:ignore class="p-4  swiper-slide h-[250px] text-center rounded-xl shadow-2xl bg-white">
             
               <div class="aspect-[2/2] overflow-hidden rounded-lg ">
                 <img src="{{ $master->image }}" alt="{{ $master->name }}" class="object-cover w-full h-full" />
