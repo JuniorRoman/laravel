@@ -5,7 +5,7 @@ namespace App\Livewire;
 use Livewire\Component;
 use Illuminate\Support\Facades\DB;
 use App\Models\InfoBlock;
-use App\Models\infoBlockBack;
+use App\Models\InfoBlockBack;
 
 class InfoBlocks extends Component
 {

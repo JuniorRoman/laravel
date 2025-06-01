@@ -12,7 +12,7 @@ class InfoBlockBacks extends Component
 
     public function render()
     {
-       $infoblock = infoBlockBack::all();
+       $infoblock = InfoBlockBack::all();
       
        return view('livewire.info-block-backs');
     }
