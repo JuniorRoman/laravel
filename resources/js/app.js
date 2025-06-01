@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 document.addEventListener("livewire:navigated", () => {
     new Swiper(".swiper_promo", {
-        loop: true,
+        // loop: true,
         speed: 5000,
         autoplay: {
             delay: 5000,
@@ -37,7 +37,6 @@ document.addEventListener("livewire:navigated", () => {
             1024: {
                 slidesPerView: 4,
                 spaceBetween: 10,
-                centeredSlides: true,
             },
         },
         navigation: {
@@ -49,7 +48,7 @@ document.addEventListener("livewire:navigated", () => {
 
 document.addEventListener("livewire:navigated", () => {
     new Swiper(".swiper_minute", {
-        loop: true,
+        // loop: true,
         speed: 2000,
         freeMode: false,
         autoplay: {
@@ -68,7 +67,6 @@ document.addEventListener("livewire:navigated", () => {
             1024: {
                 slidesPerView: 1,
                 spaceBetween: 10,
-                centeredSlides: true,
             },
         },
         pagination: {
@@ -97,7 +95,6 @@ document.addEventListener("livewire:navigated", () => {
             1024: {
                 slidesPerView: 3.5,
                 spaceBetween: 20,
-                centeredSlides: true,
             },
         },
     });
