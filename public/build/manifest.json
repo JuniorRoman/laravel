@@ -8,17 +8,17 @@
     "src": "public/images/video/shape.svg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-CmEm-Srg.css",
+    "file": "assets/app-BWQZ4tHl.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-niHKP2JR.js",
+    "file": "assets/app-DeOx24HW.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-C1knmTmm.css"
+      "assets/app-DpK-gQ2a.css"
     ]
   }
 }
